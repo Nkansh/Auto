@@ -5,8 +5,8 @@ class Student{
   float fee;
   Student(int rollno,String name,float fee){
     this.rollno = rollno; //the this keyword in class methods
-    this.name = name;
-    this.fee = fee;
+    this.name = name;     //this keyword used when the class variable
+    this.fee = fee;       //have the same names as the method                                //variables 
 
   }
   void display(){
