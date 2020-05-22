@@ -17,6 +17,11 @@ class Cat extends Dog{             //Multiple inheritance
     System.out.println("meow...");
   }
 }
+  class Lion extends Cat{             //Multiple inheritance
+    void roar(){
+      System.out.println("roar....");
+    }
+}
 
 class TestInheritance{
   public static void main(String[] args ){
@@ -26,6 +31,8 @@ class TestInheritance{
     Cat cat = new Cat();
     cat.cry();
     cat.eat();
+    Lion lion = new Lion();
+    lion.eat();
 
 
 
